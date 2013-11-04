@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ODViewController : UIViewController
+@interface ODViewController : UIViewController <UIPageViewControllerDataSource>
+
+@property (strong, nonatomic) UIPageViewController *pageController;
 
 @end

@@ -13,8 +13,6 @@
 		099F851318280E5F0069A971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 099F851118280E5F0069A971 /* InfoPlist.strings */; };
 		099F851518280E5F0069A971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F851418280E5F0069A971 /* main.m */; };
 		099F851918280E5F0069A971 /* ODAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F851818280E5F0069A971 /* ODAppDelegate.m */; };
-		099F851C18280E5F0069A971 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099F851A18280E5F0069A971 /* Main_iPhone.storyboard */; };
-		099F851F18280E5F0069A971 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099F851D18280E5F0069A971 /* Main_iPad.storyboard */; };
 		099F852218280E5F0069A971 /* ODViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F852118280E5F0069A971 /* ODViewController.m */; };
 		099F852418280E5F0069A971 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099F852318280E5F0069A971 /* Images.xcassets */; };
 		099F852B18280E5F0069A971 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099F852A18280E5F0069A971 /* XCTest.framework */; };
@@ -22,6 +20,13 @@
 		099F852D18280E5F0069A971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099F850C18280E5F0069A971 /* UIKit.framework */; };
 		099F853518280E5F0069A971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 099F853318280E5F0069A971 /* InfoPlist.strings */; };
 		099F853718280E5F0069A971 /* introTutoScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F853618280E5F0069A971 /* introTutoScreenTests.m */; };
+		099F8542182814DD0069A971 /* ODChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 099F8541182814DD0069A971 /* ODChildVC.m */; };
+		099F854D182845640069A971 /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 099F8549182845640069A971 /* bar.jpg */; };
+		099F854E182845640069A971 /* bouteille.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 099F854A182845640069A971 /* bouteille.jpg */; };
+		099F854F182845640069A971 /* cuisine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 099F854B182845640069A971 /* cuisine.jpg */; };
+		099F8550182845640069A971 /* table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 099F854C182845640069A971 /* table.jpg */; };
+		099F855318284C730069A971 /* ODChildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099F855218284C730069A971 /* ODChildView.xib */; };
+		099F855718284F040069A971 /* ODViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099F855618284F040069A971 /* ODViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +50,6 @@
 		099F851618280E5F0069A971 /* introTutoScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "introTutoScreen-Prefix.pch"; sourceTree = "<group>"; };
 		099F851718280E5F0069A971 /* ODAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODAppDelegate.h; sourceTree = "<group>"; };
 		099F851818280E5F0069A971 /* ODAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODAppDelegate.m; sourceTree = "<group>"; };
-		099F851B18280E5F0069A971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		099F851E18280E5F0069A971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		099F852018280E5F0069A971 /* ODViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODViewController.h; sourceTree = "<group>"; };
 		099F852118280E5F0069A971 /* ODViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODViewController.m; sourceTree = "<group>"; };
 		099F852318280E5F0069A971 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +58,14 @@
 		099F853218280E5F0069A971 /* introTutoScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "introTutoScreenTests-Info.plist"; sourceTree = "<group>"; };
 		099F853418280E5F0069A971 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		099F853618280E5F0069A971 /* introTutoScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = introTutoScreenTests.m; sourceTree = "<group>"; };
+		099F8540182814DD0069A971 /* ODChildVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODChildVC.h; sourceTree = "<group>"; };
+		099F8541182814DD0069A971 /* ODChildVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODChildVC.m; sourceTree = "<group>"; };
+		099F8549182845640069A971 /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpg; sourceTree = "<group>"; };
+		099F854A182845640069A971 /* bouteille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bouteille.jpg; sourceTree = "<group>"; };
+		099F854B182845640069A971 /* cuisine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cuisine.jpg; sourceTree = "<group>"; };
+		099F854C182845640069A971 /* table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = table.jpg; sourceTree = "<group>"; };
+		099F855218284C730069A971 /* ODChildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ODChildView.xib; sourceTree = "<group>"; };
+		099F855618284F040069A971 /* ODViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ODViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +127,12 @@
 			children = (
 				099F851718280E5F0069A971 /* ODAppDelegate.h */,
 				099F851818280E5F0069A971 /* ODAppDelegate.m */,
-				099F851A18280E5F0069A971 /* Main_iPhone.storyboard */,
-				099F851D18280E5F0069A971 /* Main_iPad.storyboard */,
 				099F852018280E5F0069A971 /* ODViewController.h */,
 				099F852118280E5F0069A971 /* ODViewController.m */,
+				099F855618284F040069A971 /* ODViewController.xib */,
+				099F8540182814DD0069A971 /* ODChildVC.h */,
+				099F8541182814DD0069A971 /* ODChildVC.m */,
+				099F855218284C730069A971 /* ODChildView.xib */,
 				099F852318280E5F0069A971 /* Images.xcassets */,
 				099F850F18280E5F0069A971 /* Supporting Files */,
 			);
@@ -129,6 +142,7 @@
 		099F850F18280E5F0069A971 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				099F8551182845750069A971 /* media */,
 				099F851018280E5F0069A971 /* introTutoScreen-Info.plist */,
 				099F851118280E5F0069A971 /* InfoPlist.strings */,
 				099F851418280E5F0069A971 /* main.m */,
@@ -153,6 +167,17 @@
 				099F853318280E5F0069A971 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		099F8551182845750069A971 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				099F8549182845640069A971 /* bar.jpg */,
+				099F854A182845640069A971 /* bouteille.jpg */,
+				099F854B182845640069A971 /* cuisine.jpg */,
+				099F854C182845640069A971 /* table.jpg */,
+			);
+			name = media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099F851F18280E5F0069A971 /* Main_iPad.storyboard in Resources */,
+				099F8550182845640069A971 /* table.jpg in Resources */,
+				099F855318284C730069A971 /* ODChildView.xib in Resources */,
+				099F854D182845640069A971 /* bar.jpg in Resources */,
 				099F852418280E5F0069A971 /* Images.xcassets in Resources */,
-				099F851C18280E5F0069A971 /* Main_iPhone.storyboard in Resources */,
+				099F854F182845640069A971 /* cuisine.jpg in Resources */,
 				099F851318280E5F0069A971 /* InfoPlist.strings in Resources */,
+				099F854E182845640069A971 /* bouteille.jpg in Resources */,
+				099F855718284F040069A971 /* ODViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +285,7 @@
 			files = (
 				099F851518280E5F0069A971 /* main.m in Sources */,
 				099F851918280E5F0069A971 /* ODAppDelegate.m in Sources */,
+				099F8542182814DD0069A971 /* ODChildVC.m in Sources */,
 				099F852218280E5F0069A971 /* ODViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,22 +315,6 @@
 				099F851218280E5F0069A971 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		099F851A18280E5F0069A971 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				099F851B18280E5F0069A971 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		099F851D18280E5F0069A971 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				099F851E18280E5F0069A971 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		099F853318280E5F0069A971 /* InfoPlist.strings */ = {
