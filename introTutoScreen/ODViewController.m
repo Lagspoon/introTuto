@@ -13,6 +13,10 @@
 
 @end
 
+///////////////////////////////////////////////////////////////////////////
+//LIFE CYCLE MANAGEMENT
+///////////////////////////////////////////////////////////////////////////
+
 @implementation ODViewController
 
 - (void) viewDidLoad {
@@ -28,14 +32,13 @@
     NSArray *viewControllers = [NSArray arrayWithObject:initialViewController];
     
     [self.pageController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
-    
+
     [self addChildViewController:self.pageController];
     [[self view] addSubview:[self.pageController view]];
     [self.pageController didMoveToParentViewController:self];
-    
-    
-    
 }
+
+
 
 ///////////////////////////////////////////////////////////////////////////
 //PAGE CREATION
@@ -77,7 +80,7 @@
     
     index++;
     
-    if (index == 5) {
+    if (index == 4) {
         return nil;
     }
     
@@ -86,18 +89,19 @@
 }
 
 ///////////////////////////////////////////////////////////////////////////
-//PAGE CONTROL DELEGATE
+//PAGE CONTROL DELEGATE & UI POSITION
 ///////////////////////////////////////////////////////////////////////////
-
+/*
 - (NSInteger)presentationCountForPageViewController:(UIPageViewController *)pageViewController {
     // The number of items reflected in the page indicator.
-    return 5;
+    return 4;
 }
 
 - (NSInteger)presentationIndexForPageViewController:(UIPageViewController *)pageViewController {
     // The selected item reflected in the page indicator.
     return 0;
 }
+*/
 
 ///////////////////////////////////////////////////////////////////////////
 //DATA MANAGEMENT
@@ -116,13 +120,10 @@
     NSString *label3 = @"Facilitez votre choix";
     NSString *label4 = @"Plus présent et tellement moins oppressant";
     
-    NSString *text1 = @"Selon le marché et les choix du chef la carte du restaurant est toujours à jour. Si la météo n'est pas de la partie ou que des réservations sont annulés le patron saura faire des promos en temps réel pour finir de vous motiver";
+    NSString *text1 = @"Selon le marché et les choix du chef la carte du restaurant est toujours à jour et les prix actualisés au quotidien. Si la météo n'est pas de la partie ou que des réservations sont annulées en dernière minute, le patron saura faire des offres flash pour ne pas gacher des plats mijotés qui n'attendent que vous";
     NSString *text2 = @"Cocktail sophistiqué, Champagne ou pression bien fraiche, cette carte vous devoilera toute la cave en un clin d'oeil, et surtout ne vous déplacez plus pour commander";
     NSString *text3 = @"Vieux Rhum de Cuba ou Whisky de Ballycoolin aprenez toutes les caractéristique de votre elixir pour une dégustation reussie";
-    NSString *text4 = @"Profitez de votre partenaire, de vos amis et redecouvrez le plaisir d'être servi. Ne cherchez plus le regard du serveur vous pouvez maintenant communiquer avec lui par télépathie";
-    
-    
-    
+    NSString *text4 = @"Profitez de votre partenaire, de vos amis et redecouvrez le plaisir d'être servi. Ne cherchez plus le regard du serveur vous pouvez maintenant communiquer avec lui par télépathie. Et si vous n'avez pas reservé vous savez immédiatement où une table est libre pour vous accueillir";
     
     NSArray *array;
     
