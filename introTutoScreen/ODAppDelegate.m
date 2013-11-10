@@ -7,6 +7,11 @@
 //
 
 #import "ODAppDelegate.h"
+#import "ODViewController.h"
+
+@interface ODAppDelegate ()
+@property (strong, nonatomic) ODViewController *viewController;
+@end
 
 @implementation ODAppDelegate
 

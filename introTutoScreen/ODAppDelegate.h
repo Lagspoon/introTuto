@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ODViewController.h"
 
 @interface ODAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) ODViewController *viewController;
 
 @end
